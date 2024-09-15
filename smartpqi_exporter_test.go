@@ -16,7 +16,7 @@ import (
 	"fmt"
 	"github.com/go-kit/log"
 	"github.com/prometheus/client_golang/prometheus"
-	io_prometheus_client "github.com/prometheus/client_model/go"
+	dto "github.com/prometheus/client_model/go"
 	"os"
 	"testing"
 )
@@ -48,7 +48,7 @@ func TestParserData(T *testing.T) {
 			if metric, ok := <-metrics; !ok {
 				break
 			} else {
-				m := &io_prometheus_client.Metric{}
+				m := &dto.Metric{}
 				_ = metric.Write(m)
 				fmt.Println(metric.Desc(), m.String())
 			}

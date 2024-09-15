@@ -1,0 +1,8 @@
+linters:
+  enable:
+    - staticcheck
+
+linters-settings:
+  errcheck:
+    exclude-functions:
+      - '(github.com/go-kit/log.Logger).Log'
