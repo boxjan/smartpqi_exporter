@@ -155,16 +155,17 @@ func NewExporter(execBin string, extraLookupPath []string, miniExecInterval time
 	}
 
 	return &Exporter{
-		rw:                      &sync.RWMutex{},
-		executablePath:          executablePath,
-		minimalInterval:         miniExecInterval,
-		CmdErr:                  make(map[string]error),
-		CmdStderr:               make(map[string][]byte),
-		CmdStdout:               make(map[string][]byte),
-		skipCollectSMARTForJDOB: skipCollectSMARTForJDOB,
-		collectSMART:            enableSMART,
-		logger:                  logger,
-		controllerCount:         controllerCount,
+		rw:                       &sync.RWMutex{},
+		executablePath:           executablePath,
+		minimalInterval:          miniExecInterval,
+		CmdErr:                   make(map[string]error),
+		CmdStderr:                make(map[string][]byte),
+		CmdStdout:                make(map[string][]byte),
+		CommandLastedExecuteTime: make(map[string]time.Time),
+		skipCollectSMARTForJDOB:  skipCollectSMARTForJDOB,
+		collectSMART:             enableSMART,
+		logger:                   logger,
+		controllerCount:          controllerCount,
 	}, nil
 }
 
