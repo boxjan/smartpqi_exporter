@@ -1,9 +1,7 @@
 go:
-  # Whenever the Go version is updated here,
-  # .circle/config.yml should also be updated.
   version: 1.22
 repository:
-  path: github.com/boxjan/smartpqi_exporter
+  path: github.com/boxjan/adaptec_exporter
 build:
   ldflags: |
     -X github.com/prometheus/common/version.Version={{.Version}}

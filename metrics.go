@@ -48,12 +48,6 @@ var (
 		"Adaptec Controller BBU count",
 		[]string{"controller"}, nil)
 
-	// battery
-	//TODO(boxjan): battery metrics
-
-	// super capacitor
-	//TODO(boxjan): super capacitor metrics
-
 	// vd info
 	ldInfo = prometheus.NewDesc(
 		prometheus.BuildFQName(namespace, "ld", "info"),

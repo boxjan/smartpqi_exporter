@@ -1,4 +1,4 @@
-# smartpqi Exporter
+# adaptec Exporter
 
 A tool to export Adaptec RAID Controller info.
 

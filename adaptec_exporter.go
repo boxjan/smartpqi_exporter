@@ -41,7 +41,7 @@ import (
 )
 
 const (
-	namespace                  = "smartpqi"
+	namespace                  = "adaptec"
 	arcconfMinimalBuildVersion = 26540
 )
 
@@ -373,17 +373,17 @@ func main() {
 	var (
 		webConfig               = webflag.AddFlags(kingpin.CommandLine, ":10101")
 		metricsPath             = kingpin.Flag("web.telemetry-path", "Path under which to expose metrics.").Default("/metrics").String()
-		execBin                 = kingpin.Flag("smartpqi.command", "Path to the smartpqi binary.").Default("arcconf").String()
-		minimalInterval         = kingpin.Flag("smartpqi.minimal-execute-interval", "Minimal execute interval for the exporter.").Default("60s").Duration()
-		extraLookupPaths        = kingpin.Flag("smartpqi.extra-lookup-paths", "Extra lookup paths for the exporter.").Default("").String()
-		collectSMART            = kingpin.Flag("smartpqi.collect-smart-metric", "Enable SMART metrics").Default("true").Bool()
-		skipCollectSMARTForJDOB = kingpin.Flag("smartpqi.skip-collect-smart-for-jbod", "Skip collect SMART metrics for JBOD").Default("false").Bool()
+		execBin                 = kingpin.Flag("adaptec.command", "Path to the arcconf binary.").Default("arcconf").String()
+		minimalInterval         = kingpin.Flag("adaptec.minimal-execute-interval", "Minimal execute interval for the exporter.").Default("60s").Duration()
+		extraLookupPaths        = kingpin.Flag("adaptec.extra-lookup-paths", "Extra lookup paths for the exporter.").Default("").String()
+		collectSMART            = kingpin.Flag("adaptec.collect-smart-metric", "Enable SMART metrics").Default("true").Bool()
+		skipCollectSMARTForJDOB = kingpin.Flag("adaptec.skip-collect-smart-for-jbod", "Skip collect SMART metrics for JBOD").Default("false").Bool()
 		writeFilepath           = kingpin.Flag("write-filepath", "Write metrics to file").Default("").String()
 	)
 
 	logConfig := &promlog.Config{}
 	flag.AddFlags(kingpin.CommandLine, logConfig)
-	kingpin.Version(version.Print("smartpqi_exporter"))
+	kingpin.Version(version.Print("adaptec_exporter"))
 	kingpin.HelpFlag.Short('h')
 	kingpin.Parse()
 	logger := promlog.New(logConfig)
@@ -400,7 +400,7 @@ func main() {
 	}
 
 	prometheus.MustRegister(exporter)
-	prometheus.MustRegister(collector_version.NewCollector("smartpqi_exporter"))
+	prometheus.MustRegister(collector_version.NewCollector("adaptec_exporter"))
 
 	if *writeFilepath != "" {
 		err = prometheus.WriteToTextfile(*writeFilepath, prometheus.DefaultGatherer)
@@ -416,9 +416,9 @@ func main() {
 	http.Handle(*metricsPath, promhttp.Handler())
 	http.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		_, _ = w.Write([]byte(`<html>
-             <head><title>SmartPQI Exporter</title></head>
+             <head><title>Adaptec Exporter</title></head>
              <body>
-             <h1>SmartPQI Exporter</h1>
+             <h1>Adaptec Exporter</h1>
              <p><a href='` + *metricsPath + `'>Metrics</a></p>
              </body>
              </html>`))
