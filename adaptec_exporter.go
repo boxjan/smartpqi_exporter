@@ -129,13 +129,17 @@ func NewExporter(execBin string, extraLookupPath []string, miniExecInterval time
 	var unusedVersion string
 	var controllerCount, buildNumber int
 
-	_, _ = fmt.Sscanf(versionOutputArray[0], "Controllers found: %d", &controllerCount)
+	_, err = fmt.Sscanf(versionOutputArray[0], "Controllers found: %d", &controllerCount)
+	if err != nil {
+		level.Error(logger).Log("msg", "exec bin run get version failed", "err", err)
+		return nil, fmt.Errorf("exec bin run get version failed")
+	}
 	if controllerCount < 1 {
 		level.Error(logger).Log("err", "no controller be found")
 		return nil, fmt.Errorf("no controller be found")
 	}
 
-	n, err := fmt.Sscanf(versionOutputArray[3], "| UCLI |  Version %s (%d)", &unusedVersion, buildNumber)
+	n, err := fmt.Sscanf(strings.TrimSpace(versionOutputArray[3]), "| UCLI |  Version %s (%d)", &unusedVersion, &buildNumber)
 	if err != nil {
 		level.Error(logger).Log("msg", "exec bin run get version failed", "err", err)
 		return nil, fmt.Errorf("exec bin run get version failed")
