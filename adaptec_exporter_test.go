@@ -50,7 +50,7 @@ func TestParserData(T *testing.T) {
 			} else {
 				m := &dto.Metric{}
 				_ = metric.Write(m)
-				fmt.Println(metric.Desc(), m.String())
+				//fmt.Println(metric.Desc(), m.String())
 			}
 		}
 

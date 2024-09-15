@@ -64,14 +64,14 @@ type Exporter struct {
 }
 
 type PhysicalDriveSmartStatsAttribute struct {
-	Id                string  `xml:"id,attr"`
-	Name              string  `xml:"name,attr"`
-	NormalizedCurrent int     `xml:"normalizedCurrent,attr"`
-	NormalizedWorst   int     `xml:"normalizedWorst,attr"`
-	ThresholdValue    int     `xml:"thresholdValue,attr"`
-	RawValue          int     `xml:"rawValue,attr"`
-	Value             float64 `xml:"Value,attr"`
-	Status            string  `xml:"Status,attr"`
+	Id                string `xml:"id,attr"`
+	Name              string `xml:"name,attr"`
+	NormalizedCurrent int    `xml:"normalizedCurrent,attr"`
+	NormalizedWorst   int    `xml:"normalizedWorst,attr"`
+	ThresholdValue    int    `xml:"thresholdValue,attr"`
+	RawValue          int    `xml:"rawValue,attr"`
+	Value             string `xml:"Value,attr"` // for scsi, it maybe a string
+	Status            string `xml:"Status,attr"`
 }
 
 type PhysicalDriveSmartStats struct {
@@ -366,9 +366,23 @@ func (e *Exporter) parserData(stdout, smart []byte, metrics chan<- prometheus.Me
 			continue
 		}
 		for _, attr := range phySmartStats.Attribute {
-			metrics <- prometheus.MustNewConstMetric(
-				pdSmartCurrentValue, prometheus.GaugeValue, attr.Value,
-				ctrlId, strconv.Itoa(phySmartStats.Id), attr.Id, attr.Name)
+			val, err := strconv.ParseFloat(attr.Value, 64)
+			if err == nil {
+				metrics <- prometheus.MustNewConstMetric(
+					pdSmartCurrentValue, prometheus.GaugeValue, val,
+					ctrlId, strconv.Itoa(phySmartStats.Id), attr.Id, attr.Name)
+			} else {
+				v := strings.ToLower(attr.Value)
+				if v == "passed" || v == "ok" {
+					metrics <- prometheus.MustNewConstMetric(
+						pdSmartHealthy, prometheus.GaugeValue, 1,
+						ctrlId, strconv.Itoa(phySmartStats.Id), attr.Id, attr.Name)
+				} else {
+					metrics <- prometheus.MustNewConstMetric(
+						pdSmartHealthy, prometheus.GaugeValue, 0,
+						ctrlId, strconv.Itoa(phySmartStats.Id), attr.Id, attr.Name)
+				}
+			}
 		}
 
 	}
