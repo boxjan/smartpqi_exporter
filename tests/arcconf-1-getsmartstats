@@ -1,0 +1,287 @@
+Controllers found: 1
+
+SMART STATS FOR SATA:
+---------------------
+
+<SmartStats controllerID="0" time="1726434952" deviceName="PM8222-SHBA" serialNumber="SAMC07E40988A70">
+<PhysicalDriveSmartStats channel="0" id="8" nonSpinning="true" isDescriptionAvailable="true" >
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="95" normalizedWorst="95" thresholdValue="0" rawValue="22277" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="56" Status="OK" />
+<Attribute id="0xB1" name="Wear Range Delta" normalizedCurrent="98" normalizedWorst="98" thresholdValue="5" rawValue="90" Status="OK" />
+<Attribute id="0xB3" name="Used Reserved Block Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB4" name="Unused Reserved Block Count Total" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="716" Status="OK" />
+<Attribute id="0xB5" name="Non-4K Aligned Access Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB6" name="Erase Fail Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB7" name="SATA Downshift Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB8" name="End-to-End Error" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="72" normalizedWorst="62" thresholdValue="0" rawValue="28" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="72" normalizedWorst="60" thresholdValue="0" rawValue="28" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xCA" name="Data Address Mark Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xEB" name="Good Block Count and System(Free)Block Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="30" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="34639176554" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="8889010058" Status="OK" />
+<Attribute id="0xF3" name="Total LBAs Written Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF4" name="Total LBAs Read Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF5" name="Unknown Attribute" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF6" name="NAND Writes 1GiB" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF7" name="Cumulative Host Sectors Written" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xFB" name="Minimum Spares Remaining" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="36199141760" Status="OK" />
+</PhysicalDriveSmartStats>
+<PhysicalDriveSmartStats channel="0" id="9" nonSpinning="false" isDescriptionAvailable="true" >
+<Attribute id="0x01" name="Read Error Rate" normalizedCurrent="79" normalizedWorst="64" thresholdValue="44" rawValue="88487384" Status="OK" />
+<Attribute id="0x03" name="Spin-Up Time in millisecs" normalizedCurrent="94" normalizedWorst="92" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0x04" name="Start/Stop Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="20" rawValue="20" Status="OK" />
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x07" name="Seek Error Rate" normalizedCurrent="82" normalizedWorst="60" thresholdValue="45" rawValue="164819461" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="75" normalizedWorst="75" thresholdValue="0" rawValue="22240" Status="OK" />
+<Attribute id="0x0A" name="Spin Retry Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="20" rawValue="20" Status="OK" />
+<Attribute id="0x12" name="Unknown Attribute" normalizedCurrent="100" normalizedWorst="100" thresholdValue="50" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBC" name="Command Timeout" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="73" normalizedWorst="67" thresholdValue="40" rawValue="27" Status="OK" />
+<Attribute id="0xC0" name="Power-off Retract Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="16" Status="OK" />
+<Attribute id="0xC1" name="Load/Unload Cycle Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="1767" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="27" normalizedWorst="40" thresholdValue="0" rawValue="27" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="9" normalizedWorst="9" thresholdValue="0" rawValue="88487384" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC6" name="Uncorrectable Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF0" name="Head Flying Hours" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="213975270708810" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="1861074473" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="1661326134" Status="OK" />
+</PhysicalDriveSmartStats>
+<PhysicalDriveSmartStats channel="0" id="10" nonSpinning="false" isDescriptionAvailable="true" >
+<Attribute id="0x01" name="Read Error Rate" normalizedCurrent="84" normalizedWorst="64" thresholdValue="44" rawValue="242812328" Status="OK" />
+<Attribute id="0x03" name="Spin-Up Time in millisecs" normalizedCurrent="94" normalizedWorst="91" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0x04" name="Start/Stop Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="20" rawValue="20" Status="OK" />
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x07" name="Seek Error Rate" normalizedCurrent="56" normalizedWorst="54" thresholdValue="45" rawValue="1881347517680" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="75" normalizedWorst="75" thresholdValue="0" rawValue="22239" Status="OK" />
+<Attribute id="0x0A" name="Spin Retry Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="20" rawValue="20" Status="OK" />
+<Attribute id="0x12" name="Unknown Attribute" normalizedCurrent="100" normalizedWorst="100" thresholdValue="50" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBC" name="Command Timeout" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="73" normalizedWorst="66" thresholdValue="40" rawValue="27" Status="OK" />
+<Attribute id="0xC0" name="Power-off Retract Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="16" Status="OK" />
+<Attribute id="0xC1" name="Load/Unload Cycle Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="2123" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="27" normalizedWorst="40" thresholdValue="0" rawValue="27" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="11" normalizedWorst="5" thresholdValue="0" rawValue="242812328" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC6" name="Uncorrectable Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF0" name="Head Flying Hours" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="89081916708422" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="37123812824" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="22718314829" Status="OK" />
+</PhysicalDriveSmartStats>
+<PhysicalDriveSmartStats channel="0" id="11" nonSpinning="false" isDescriptionAvailable="true" >
+<Attribute id="0x01" name="Read Error Rate" normalizedCurrent="83" normalizedWorst="64" thresholdValue="44" rawValue="184697648" Status="OK" />
+<Attribute id="0x03" name="Spin-Up Time in millisecs" normalizedCurrent="94" normalizedWorst="92" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0x04" name="Start/Stop Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="20" rawValue="20" Status="OK" />
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x07" name="Seek Error Rate" normalizedCurrent="81" normalizedWorst="60" thresholdValue="45" rawValue="116129894" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="75" normalizedWorst="75" thresholdValue="0" rawValue="22239" Status="OK" />
+<Attribute id="0x0A" name="Spin Retry Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="20" rawValue="20" Status="OK" />
+<Attribute id="0x12" name="Unknown Attribute" normalizedCurrent="100" normalizedWorst="100" thresholdValue="50" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBC" name="Command Timeout" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="73" normalizedWorst="67" thresholdValue="40" rawValue="27" Status="OK" />
+<Attribute id="0xC0" name="Power-off Retract Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="16" Status="OK" />
+<Attribute id="0xC1" name="Load/Unload Cycle Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="2347" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="27" normalizedWorst="40" thresholdValue="0" rawValue="27" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="13" normalizedWorst="7" thresholdValue="0" rawValue="184697648" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC6" name="Uncorrectable Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF0" name="Head Flying Hours" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="197830488643141" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="33776177456" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="15753232517" Status="OK" />
+</PhysicalDriveSmartStats>
+<PhysicalDriveSmartStats channel="0" id="12" nonSpinning="false" isDescriptionAvailable="true" >
+<Attribute id="0x01" name="Read Error Rate" normalizedCurrent="81" normalizedWorst="64" thresholdValue="44" rawValue="117754192" Status="OK" />
+<Attribute id="0x03" name="Spin-Up Time in millisecs" normalizedCurrent="94" normalizedWorst="92" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0x04" name="Start/Stop Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="20" rawValue="20" Status="OK" />
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x07" name="Seek Error Rate" normalizedCurrent="82" normalizedWorst="60" thresholdValue="45" rawValue="162791327" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="75" normalizedWorst="75" thresholdValue="0" rawValue="22239" Status="OK" />
+<Attribute id="0x0A" name="Spin Retry Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="20" rawValue="20" Status="OK" />
+<Attribute id="0x12" name="Unknown Attribute" normalizedCurrent="100" normalizedWorst="100" thresholdValue="50" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBC" name="Command Timeout" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="72" normalizedWorst="67" thresholdValue="40" rawValue="28" Status="OK" />
+<Attribute id="0xC0" name="Power-off Retract Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="16" Status="OK" />
+<Attribute id="0xC1" name="Load/Unload Cycle Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="2032" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="28" normalizedWorst="40" thresholdValue="0" rawValue="28" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="11" normalizedWorst="7" thresholdValue="0" rawValue="117754192" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC6" name="Uncorrectable Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF0" name="Head Flying Hours" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="86650965218886" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="42243434952" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="21627800197" Status="OK" />
+</PhysicalDriveSmartStats>
+<PhysicalDriveSmartStats channel="0" id="13" nonSpinning="false" isDescriptionAvailable="true" >
+<Attribute id="0x01" name="Read Error Rate" normalizedCurrent="84" normalizedWorst="64" thresholdValue="44" rawValue="241764287" Status="OK" />
+<Attribute id="0x03" name="Spin-Up Time in millisecs" normalizedCurrent="86" normalizedWorst="84" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0x04" name="Start/Stop Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="20" rawValue="83" Status="OK" />
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x07" name="Seek Error Rate" normalizedCurrent="86" normalizedWorst="60" thresholdValue="45" rawValue="416967626" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="98" normalizedWorst="98" thresholdValue="0" rawValue="1790" Status="OK" />
+<Attribute id="0x0A" name="Spin Retry Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="20" rawValue="83" Status="OK" />
+<Attribute id="0xB8" name="End-to-End Error" normalizedCurrent="100" normalizedWorst="100" thresholdValue="99" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBC" name="Command Timeout" normalizedCurrent="100" normalizedWorst="99" thresholdValue="0" rawValue="2" Status="OK" />
+<Attribute id="0xBD" name="High Fly Writes" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="70" normalizedWorst="52" thresholdValue="40" rawValue="30" Status="OK" />
+<Attribute id="0xBF" name="G-sense error rate" normalizedCurrent="98" normalizedWorst="98" thresholdValue="0" rawValue="4032" Status="OK" />
+<Attribute id="0xC0" name="Power-off Retract Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="124" Status="OK" />
+<Attribute id="0xC1" name="Load/Unload Cycle Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="353" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="30" normalizedWorst="48" thresholdValue="0" rawValue="30" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="6" normalizedWorst="1" thresholdValue="0" rawValue="241764287" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC6" name="Uncorrectable Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF0" name="Head Flying Hours" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="264943647590132" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="3130308812" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="298476006176" Status="OK" />
+</PhysicalDriveSmartStats>
+<PhysicalDriveSmartStats channel="0" id="14" nonSpinning="false" isDescriptionAvailable="true" >
+<Attribute id="0x01" name="Read Error Rate" normalizedCurrent="65" normalizedWorst="64" thresholdValue="44" rawValue="3443768" Status="OK" />
+<Attribute id="0x03" name="Spin-Up Time in millisecs" normalizedCurrent="94" normalizedWorst="92" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0x04" name="Start/Stop Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="20" rawValue="20" Status="OK" />
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x07" name="Seek Error Rate" normalizedCurrent="81" normalizedWorst="60" thresholdValue="45" rawValue="138490227" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="75" normalizedWorst="75" thresholdValue="0" rawValue="22240" Status="OK" />
+<Attribute id="0x0A" name="Spin Retry Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="20" rawValue="20" Status="OK" />
+<Attribute id="0x12" name="Unknown Attribute" normalizedCurrent="100" normalizedWorst="100" thresholdValue="50" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBC" name="Command Timeout" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="72" normalizedWorst="66" thresholdValue="40" rawValue="28" Status="OK" />
+<Attribute id="0xC0" name="Power-off Retract Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="16" Status="OK" />
+<Attribute id="0xC1" name="Load/Unload Cycle Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="2235" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="28" normalizedWorst="40" thresholdValue="0" rawValue="28" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="9" normalizedWorst="6" thresholdValue="0" rawValue="3443768" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC6" name="Uncorrectable Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF0" name="Head Flying Hours" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="93114890999365" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="37844151208" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="20295218821" Status="OK" />
+</PhysicalDriveSmartStats>
+<PhysicalDriveSmartStats channel="0" id="15" nonSpinning="false" isDescriptionAvailable="true" >
+<Attribute id="0x01" name="Read Error Rate" normalizedCurrent="71" normalizedWorst="64" thresholdValue="44" rawValue="12036744" Status="OK" />
+<Attribute id="0x03" name="Spin-Up Time in millisecs" normalizedCurrent="94" normalizedWorst="92" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0x04" name="Start/Stop Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="20" rawValue="20" Status="OK" />
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x07" name="Seek Error Rate" normalizedCurrent="81" normalizedWorst="60" thresholdValue="45" rawValue="135236544" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="75" normalizedWorst="75" thresholdValue="0" rawValue="22240" Status="OK" />
+<Attribute id="0x0A" name="Spin Retry Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="20" rawValue="20" Status="OK" />
+<Attribute id="0x12" name="Unknown Attribute" normalizedCurrent="100" normalizedWorst="100" thresholdValue="50" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBC" name="Command Timeout" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="73" normalizedWorst="67" thresholdValue="40" rawValue="27" Status="OK" />
+<Attribute id="0xC0" name="Power-off Retract Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="16" Status="OK" />
+<Attribute id="0xC1" name="Load/Unload Cycle Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="2314" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="27" normalizedWorst="40" thresholdValue="0" rawValue="27" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="12" normalizedWorst="7" thresholdValue="0" rawValue="12036744" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC6" name="Uncorrectable Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF0" name="Head Flying Hours" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="27715423983174" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="34922185408" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="16647671677" Status="OK" />
+</PhysicalDriveSmartStats>
+<PhysicalDriveSmartStats channel="0" id="16" nonSpinning="false" isDescriptionAvailable="true" >
+<Attribute id="0x01" name="Read Error Rate" normalizedCurrent="76" normalizedWorst="64" thresholdValue="44" rawValue="39094232" Status="OK" />
+<Attribute id="0x03" name="Spin-Up Time in millisecs" normalizedCurrent="93" normalizedWorst="92" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0x04" name="Start/Stop Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="20" rawValue="20" Status="OK" />
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x07" name="Seek Error Rate" normalizedCurrent="81" normalizedWorst="60" thresholdValue="45" rawValue="133993150" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="75" normalizedWorst="75" thresholdValue="0" rawValue="22240" Status="OK" />
+<Attribute id="0x0A" name="Spin Retry Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="20" rawValue="20" Status="OK" />
+<Attribute id="0x12" name="Unknown Attribute" normalizedCurrent="100" normalizedWorst="100" thresholdValue="50" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBC" name="Command Timeout" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="72" normalizedWorst="67" thresholdValue="40" rawValue="28" Status="OK" />
+<Attribute id="0xC0" name="Power-off Retract Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="16" Status="OK" />
+<Attribute id="0xC1" name="Load/Unload Cycle Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="2205" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="28" normalizedWorst="40" thresholdValue="0" rawValue="28" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="12" normalizedWorst="7" thresholdValue="0" rawValue="39094232" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC6" name="Uncorrectable Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF0" name="Head Flying Hours" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="38981123200583" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="38325251752" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="17653358773" Status="OK" />
+</PhysicalDriveSmartStats>
+<PhysicalDriveSmartStats channel="0" id="17" nonSpinning="false" isDescriptionAvailable="true" >
+<Attribute id="0x01" name="Read Error Rate" normalizedCurrent="82" normalizedWorst="64" thresholdValue="44" rawValue="177536456" Status="OK" />
+<Attribute id="0x03" name="Spin-Up Time in millisecs" normalizedCurrent="93" normalizedWorst="92" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0x04" name="Start/Stop Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="20" rawValue="20" Status="OK" />
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x07" name="Seek Error Rate" normalizedCurrent="82" normalizedWorst="60" thresholdValue="45" rawValue="147193247" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="75" normalizedWorst="75" thresholdValue="0" rawValue="22240" Status="OK" />
+<Attribute id="0x0A" name="Spin Retry Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="20" rawValue="20" Status="OK" />
+<Attribute id="0x12" name="Unknown Attribute" normalizedCurrent="100" normalizedWorst="100" thresholdValue="50" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBC" name="Command Timeout" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="72" normalizedWorst="67" thresholdValue="40" rawValue="28" Status="OK" />
+<Attribute id="0xC0" name="Power-off Retract Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="16" Status="OK" />
+<Attribute id="0xC1" name="Load/Unload Cycle Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="1995" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="28" normalizedWorst="40" thresholdValue="0" rawValue="28" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="11" normalizedWorst="7" thresholdValue="0" rawValue="177536456" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC6" name="Uncorrectable Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF0" name="Head Flying Hours" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="271012436399688" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="36074513328" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="20771131541" Status="OK" />
+</PhysicalDriveSmartStats>
+<PhysicalDriveSmartStats channel="0" id="18" nonSpinning="false" isDescriptionAvailable="true" >
+<Attribute id="0x01" name="Read Error Rate" normalizedCurrent="83" normalizedWorst="64" thresholdValue="44" rawValue="205291368" Status="OK" />
+<Attribute id="0x03" name="Spin-Up Time in millisecs" normalizedCurrent="92" normalizedWorst="92" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0x04" name="Start/Stop Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="20" rawValue="20" Status="OK" />
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x07" name="Seek Error Rate" normalizedCurrent="81" normalizedWorst="60" thresholdValue="45" rawValue="139760987" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="75" normalizedWorst="75" thresholdValue="0" rawValue="22239" Status="OK" />
+<Attribute id="0x0A" name="Spin Retry Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="20" rawValue="20" Status="OK" />
+<Attribute id="0x12" name="Unknown Attribute" normalizedCurrent="100" normalizedWorst="100" thresholdValue="50" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBC" name="Command Timeout" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="73" normalizedWorst="67" thresholdValue="40" rawValue="27" Status="OK" />
+<Attribute id="0xC0" name="Power-off Retract Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="16" Status="OK" />
+<Attribute id="0xC1" name="Load/Unload Cycle Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="2252" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="27" normalizedWorst="40" thresholdValue="0" rawValue="27" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="11" normalizedWorst="5" thresholdValue="0" rawValue="205291368" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC6" name="Uncorrectable Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF0" name="Head Flying Hours" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="249391571031623" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="39369326632" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="100" normalizedWorst="253" thresholdValue="0" rawValue="21148852197" Status="OK" />
+</PhysicalDriveSmartStats>
+</SmartStats>
+
+
+SMART STATS FOR SAS:
+--------------------
+
+<SASSmartStats controllerID="0" time="1726434952" deviceName="PM8222-SHBA" serialNumber="SAMC07E40988A70">
+</SASSmartStats>
+
+
+Command completed successfully.

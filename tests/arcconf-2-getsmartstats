@@ -1,0 +1,297 @@
+Controllers found: 1
+
+SMART STATS FOR SATA:
+---------------------
+
+<SmartStats controllerID="0" time="1725870293" deviceName="RAID P460-B2" serialNumber="Unknown">
+<PhysicalDriveSmartStats channel="0" id="12" nonSpinning="true" isDescriptionAvailable="true" >
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="98" normalizedWorst="98" thresholdValue="0" rawValue="8866" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="73" Status="OK" />
+<Attribute id="0xB1" name="Wear Range Delta" normalizedCurrent="98" normalizedWorst="98" thresholdValue="5" rawValue="102" Status="OK" />
+<Attribute id="0xB3" name="Used Reserved Block Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB4" name="Unused Reserved Block Count Total" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="442" Status="OK" />
+<Attribute id="0xB5" name="Non-4K Aligned Access Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB6" name="Erase Fail Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB7" name="SATA Downshift Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB8" name="End-to-End Error" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="69" normalizedWorst="57" thresholdValue="0" rawValue="31" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="69" normalizedWorst="57" thresholdValue="0" rawValue="31" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xCA" name="Data Address Mark Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xEB" name="Good Block Count and System(Free)Block Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="71" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="3608363749" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="28688034016" Status="OK" />
+<Attribute id="0xF3" name="Total LBAs Written Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF4" name="Total LBAs Read Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF5" name="Unknown Attribute" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF6" name="NAND Writes 1GiB" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF7" name="Cumulative Host Sectors Written" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xFB" name="Minimum Spares Remaining" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="7990229888" Status="OK" />
+</PhysicalDriveSmartStats>
+<PhysicalDriveSmartStats channel="0" id="13" nonSpinning="true" isDescriptionAvailable="true" >
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="98" normalizedWorst="98" thresholdValue="0" rawValue="8866" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="73" Status="OK" />
+<Attribute id="0xB1" name="Wear Range Delta" normalizedCurrent="98" normalizedWorst="98" thresholdValue="5" rawValue="104" Status="OK" />
+<Attribute id="0xB3" name="Used Reserved Block Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB4" name="Unused Reserved Block Count Total" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="439" Status="OK" />
+<Attribute id="0xB5" name="Non-4K Aligned Access Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB6" name="Erase Fail Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB7" name="SATA Downshift Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB8" name="End-to-End Error" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="69" normalizedWorst="57" thresholdValue="0" rawValue="31" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="69" normalizedWorst="57" thresholdValue="0" rawValue="31" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xCA" name="Data Address Mark Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xEB" name="Good Block Count and System(Free)Block Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="71" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="4530430733" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="27753770130" Status="OK" />
+<Attribute id="0xF3" name="Total LBAs Written Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF4" name="Total LBAs Read Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF5" name="Unknown Attribute" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF6" name="NAND Writes 1GiB" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF7" name="Cumulative Host Sectors Written" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xFB" name="Minimum Spares Remaining" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="8666193024" Status="OK" />
+</PhysicalDriveSmartStats>
+<PhysicalDriveSmartStats channel="0" id="14" nonSpinning="true" isDescriptionAvailable="true" >
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="98" normalizedWorst="98" thresholdValue="0" rawValue="8866" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="73" Status="OK" />
+<Attribute id="0xB1" name="Wear Range Delta" normalizedCurrent="99" normalizedWorst="99" thresholdValue="5" rawValue="23" Status="OK" />
+<Attribute id="0xB3" name="Used Reserved Block Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB4" name="Unused Reserved Block Count Total" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="1765" Status="OK" />
+<Attribute id="0xB5" name="Non-4K Aligned Access Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB6" name="Erase Fail Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB7" name="SATA Downshift Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB8" name="End-to-End Error" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="68" normalizedWorst="57" thresholdValue="0" rawValue="32" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="68" normalizedWorst="57" thresholdValue="0" rawValue="32" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xCA" name="Data Address Mark Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xEB" name="Good Block Count and System(Free)Block Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="71" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="16731158190" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="126205496096" Status="OK" />
+<Attribute id="0xF3" name="Total LBAs Written Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF4" name="Total LBAs Read Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF5" name="Unknown Attribute" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF6" name="NAND Writes 1GiB" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF7" name="Cumulative Host Sectors Written" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xFB" name="Minimum Spares Remaining" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="21114728064" Status="OK" />
+</PhysicalDriveSmartStats>
+<PhysicalDriveSmartStats channel="0" id="15" nonSpinning="true" isDescriptionAvailable="true" >
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="98" normalizedWorst="98" thresholdValue="0" rawValue="8866" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="73" Status="OK" />
+<Attribute id="0xB1" name="Wear Range Delta" normalizedCurrent="99" normalizedWorst="99" thresholdValue="5" rawValue="23" Status="OK" />
+<Attribute id="0xB3" name="Used Reserved Block Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB4" name="Unused Reserved Block Count Total" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="1687" Status="OK" />
+<Attribute id="0xB5" name="Non-4K Aligned Access Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB6" name="Erase Fail Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB7" name="SATA Downshift Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB8" name="End-to-End Error" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="70" normalizedWorst="56" thresholdValue="0" rawValue="30" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="70" normalizedWorst="56" thresholdValue="0" rawValue="30" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xCA" name="Data Address Mark Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xEB" name="Good Block Count and System(Free)Block Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="71" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="17988927030" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="127093370586" Status="OK" />
+<Attribute id="0xF3" name="Total LBAs Written Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF4" name="Total LBAs Read Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF5" name="Unknown Attribute" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF6" name="NAND Writes 1GiB" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF7" name="Cumulative Host Sectors Written" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xFB" name="Minimum Spares Remaining" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="22315955456" Status="OK" />
+</PhysicalDriveSmartStats>
+<PhysicalDriveSmartStats channel="0" id="16" nonSpinning="true" isDescriptionAvailable="true" >
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="98" normalizedWorst="98" thresholdValue="0" rawValue="8866" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="73" Status="OK" />
+<Attribute id="0xB1" name="Wear Range Delta" normalizedCurrent="99" normalizedWorst="99" thresholdValue="5" rawValue="23" Status="OK" />
+<Attribute id="0xB3" name="Used Reserved Block Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB4" name="Unused Reserved Block Count Total" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="1684" Status="OK" />
+<Attribute id="0xB5" name="Non-4K Aligned Access Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB6" name="Erase Fail Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB7" name="SATA Downshift Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB8" name="End-to-End Error" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="69" normalizedWorst="57" thresholdValue="0" rawValue="31" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="69" normalizedWorst="57" thresholdValue="0" rawValue="31" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xCA" name="Data Address Mark Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xEB" name="Good Block Count and System(Free)Block Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="71" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="17602811616" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="126622704740" Status="OK" />
+<Attribute id="0xF3" name="Total LBAs Written Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF4" name="Total LBAs Read Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF5" name="Unknown Attribute" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF6" name="NAND Writes 1GiB" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF7" name="Cumulative Host Sectors Written" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xFB" name="Minimum Spares Remaining" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="22345155136" Status="OK" />
+</PhysicalDriveSmartStats>
+<PhysicalDriveSmartStats channel="0" id="17" nonSpinning="true" isDescriptionAvailable="true" >
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="98" normalizedWorst="98" thresholdValue="0" rawValue="8866" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="73" Status="OK" />
+<Attribute id="0xB1" name="Wear Range Delta" normalizedCurrent="99" normalizedWorst="99" thresholdValue="5" rawValue="23" Status="OK" />
+<Attribute id="0xB3" name="Used Reserved Block Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB4" name="Unused Reserved Block Count Total" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="1714" Status="OK" />
+<Attribute id="0xB5" name="Non-4K Aligned Access Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB6" name="Erase Fail Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB7" name="SATA Downshift Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB8" name="End-to-End Error" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="68" normalizedWorst="56" thresholdValue="0" rawValue="32" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="68" normalizedWorst="56" thresholdValue="0" rawValue="32" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xCA" name="Data Address Mark Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xEB" name="Good Block Count and System(Free)Block Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="71" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="18073754568" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="127621268731" Status="OK" />
+<Attribute id="0xF3" name="Total LBAs Written Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF4" name="Total LBAs Read Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF5" name="Unknown Attribute" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF6" name="NAND Writes 1GiB" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF7" name="Cumulative Host Sectors Written" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xFB" name="Minimum Spares Remaining" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="22629413760" Status="OK" />
+</PhysicalDriveSmartStats>
+<PhysicalDriveSmartStats channel="0" id="18" nonSpinning="true" isDescriptionAvailable="true" >
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="98" normalizedWorst="98" thresholdValue="0" rawValue="8866" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="73" Status="OK" />
+<Attribute id="0xB1" name="Wear Range Delta" normalizedCurrent="99" normalizedWorst="99" thresholdValue="5" rawValue="23" Status="OK" />
+<Attribute id="0xB3" name="Used Reserved Block Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB4" name="Unused Reserved Block Count Total" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="1690" Status="OK" />
+<Attribute id="0xB5" name="Non-4K Aligned Access Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB6" name="Erase Fail Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB7" name="SATA Downshift Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB8" name="End-to-End Error" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="70" normalizedWorst="56" thresholdValue="0" rawValue="30" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="70" normalizedWorst="56" thresholdValue="0" rawValue="30" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xCA" name="Data Address Mark Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xEB" name="Good Block Count and System(Free)Block Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="71" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="18362221355" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="127626757181" Status="OK" />
+<Attribute id="0xF3" name="Total LBAs Written Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF4" name="Total LBAs Read Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF5" name="Unknown Attribute" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF6" name="NAND Writes 1GiB" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF7" name="Cumulative Host Sectors Written" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xFB" name="Minimum Spares Remaining" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="22732672512" Status="OK" />
+</PhysicalDriveSmartStats>
+<PhysicalDriveSmartStats channel="0" id="19" nonSpinning="true" isDescriptionAvailable="true" >
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="98" normalizedWorst="98" thresholdValue="0" rawValue="8866" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="73" Status="OK" />
+<Attribute id="0xB1" name="Wear Range Delta" normalizedCurrent="99" normalizedWorst="99" thresholdValue="5" rawValue="24" Status="OK" />
+<Attribute id="0xB3" name="Used Reserved Block Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB4" name="Unused Reserved Block Count Total" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="1773" Status="OK" />
+<Attribute id="0xB5" name="Non-4K Aligned Access Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB6" name="Erase Fail Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB7" name="SATA Downshift Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB8" name="End-to-End Error" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="69" normalizedWorst="57" thresholdValue="0" rawValue="31" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="69" normalizedWorst="57" thresholdValue="0" rawValue="31" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xCA" name="Data Address Mark Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xEB" name="Good Block Count and System(Free)Block Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="71" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="17861020975" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="126980523218" Status="OK" />
+<Attribute id="0xF3" name="Total LBAs Written Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF4" name="Total LBAs Read Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF5" name="Unknown Attribute" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF6" name="NAND Writes 1GiB" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF7" name="Cumulative Host Sectors Written" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xFB" name="Minimum Spares Remaining" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="22299311424" Status="OK" />
+</PhysicalDriveSmartStats>
+<PhysicalDriveSmartStats channel="0" id="20" nonSpinning="true" isDescriptionAvailable="true" >
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="98" normalizedWorst="98" thresholdValue="0" rawValue="8866" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="73" Status="OK" />
+<Attribute id="0xB1" name="Wear Range Delta" normalizedCurrent="99" normalizedWorst="99" thresholdValue="5" rawValue="23" Status="OK" />
+<Attribute id="0xB3" name="Used Reserved Block Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB4" name="Unused Reserved Block Count Total" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="1764" Status="OK" />
+<Attribute id="0xB5" name="Non-4K Aligned Access Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB6" name="Erase Fail Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB7" name="SATA Downshift Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB8" name="End-to-End Error" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="69" normalizedWorst="56" thresholdValue="0" rawValue="31" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="69" normalizedWorst="56" thresholdValue="0" rawValue="31" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xCA" name="Data Address Mark Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xEB" name="Good Block Count and System(Free)Block Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="71" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="17680588983" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="126846575590" Status="OK" />
+<Attribute id="0xF3" name="Total LBAs Written Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF4" name="Total LBAs Read Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF5" name="Unknown Attribute" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF6" name="NAND Writes 1GiB" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF7" name="Cumulative Host Sectors Written" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xFB" name="Minimum Spares Remaining" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="22321576384" Status="OK" />
+</PhysicalDriveSmartStats>
+<PhysicalDriveSmartStats channel="0" id="21" nonSpinning="true" isDescriptionAvailable="true" >
+<Attribute id="0x05" name="Reallocated Sectors Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0x09" name="Power-On Hours" normalizedCurrent="98" normalizedWorst="98" thresholdValue="0" rawValue="8866" Status="OK" />
+<Attribute id="0x0C" name="Power Cycle Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="73" Status="OK" />
+<Attribute id="0xB1" name="Wear Range Delta" normalizedCurrent="99" normalizedWorst="99" thresholdValue="5" rawValue="23" Status="OK" />
+<Attribute id="0xB3" name="Used Reserved Block Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB4" name="Unused Reserved Block Count Total" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="1749" Status="OK" />
+<Attribute id="0xB5" name="Non-4K Aligned Access Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB6" name="Erase Fail Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB7" name="SATA Downshift Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xB8" name="End-to-End Error" normalizedCurrent="100" normalizedWorst="100" thresholdValue="97" rawValue="0" Status="OK" />
+<Attribute id="0xBB" name="Reported Uncorrectable Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xBE" name="Temperature Difference From 100 in celcius" normalizedCurrent="69" normalizedWorst="58" thresholdValue="0" rawValue="31" Status="OK" />
+<Attribute id="0xC2" name="Current Internal Temperature" normalizedCurrent="69" normalizedWorst="58" thresholdValue="0" rawValue="31" Status="OK" />
+<Attribute id="0xC3" name="Hardware ECC Recovered" normalizedCurrent="200" normalizedWorst="200" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC5" name="Current Pending Sector Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xC7" name="UltraDMA CRC Error Count" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xCA" name="Data Address Mark Errors" normalizedCurrent="100" normalizedWorst="100" thresholdValue="10" rawValue="0" Status="OK" />
+<Attribute id="0xEB" name="Good Block Count and System(Free)Block Count" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="71" Status="OK" />
+<Attribute id="0xF1" name="Total LBAs Written" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="16839420932" Status="OK" />
+<Attribute id="0xF2" name="Total LBAs Read" normalizedCurrent="99" normalizedWorst="99" thresholdValue="0" rawValue="126469607714" Status="OK" />
+<Attribute id="0xF3" name="Total LBAs Written Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF4" name="Total LBAs Read Expanded" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="0" Status="OK" />
+<Attribute id="0xF5" name="Unknown Attribute" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF6" name="NAND Writes 1GiB" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xF7" name="Cumulative Host Sectors Written" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="65535" Status="OK" />
+<Attribute id="0xFB" name="Minimum Spares Remaining" normalizedCurrent="100" normalizedWorst="100" thresholdValue="0" rawValue="21635248960" Status="OK" />
+</PhysicalDriveSmartStats>
+</SmartStats>
+
+
+SMART STATS FOR SAS:
+--------------------
+
+<SASSmartStats controllerID="0" time="1725870293" deviceName="RAID P460-B2" serialNumber="Unknown">
+</SASSmartStats>
+
+
+Command completed successfully.
