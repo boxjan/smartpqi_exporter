@@ -205,6 +205,21 @@ func (e *Exporter) Describe(ch chan<- *prometheus.Desc) {
 	ch <- ctrlHealthy
 	ch <- ctrlStatus
 	ch <- ctrlTemperature
+
+	ch <- bocHealthy
+	ch <- bocCount
+
+	ch <- ldInfo
+	ch <- ldHealthy
+	ch <- ldStatus
+
+	ch <- pdInfo
+	ch <- pdHealthy
+	ch <- pdStatus
+	ch <- pdSmartHealthy
+	ch <- pdSmartRawValue
+	ch <- pdSmartCurrentValue
+
 }
 
 func (e *Exporter) Collect(metrics chan<- prometheus.Metric) {
