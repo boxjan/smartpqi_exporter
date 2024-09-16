@@ -358,7 +358,11 @@ func (e *Exporter) parserData(stdout, smart []byte, metrics chan<- prometheus.Me
 		if diskIdIsJDOB[phySmartStats.Id] && e.skipCollectSMARTForJDOB {
 			continue
 		}
+		wtf := map[string]bool{}
 		for _, attr := range phySmartStats.Attribute {
+			if wtf[fmt.Sprintf("%d-%s", phySmartStats.Id, attr.Id)] {
+				continue
+			}
 			metrics <- prometheus.MustNewConstMetric(
 				pdSmartCurrentValue, prometheus.GaugeValue, float64(attr.NormalizedCurrent),
 				ctrlId, strconv.Itoa(phySmartStats.Id), attr.Id, attr.Name)
@@ -380,7 +384,11 @@ func (e *Exporter) parserData(stdout, smart []byte, metrics chan<- prometheus.Me
 		if diskIdIsJDOB[phySmartStats.Id] && e.skipCollectSMARTForJDOB {
 			continue
 		}
+		wtf := map[string]bool{}
 		for _, attr := range phySmartStats.Attribute {
+			if wtf[fmt.Sprintf("%d-%s", phySmartStats.Id, attr.Id)] {
+				continue
+			}
 			val, err := strconv.ParseFloat(attr.Value, 64)
 			if err == nil {
 				metrics <- prometheus.MustNewConstMetric(
