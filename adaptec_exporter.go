@@ -363,6 +363,7 @@ func (e *Exporter) parserData(stdout, smart []byte, metrics chan<- prometheus.Me
 			if wtf[fmt.Sprintf("%d-%s", phySmartStats.Id, attr.Id)] {
 				continue
 			}
+			wtf[fmt.Sprintf("%d-%s", phySmartStats.Id, attr.Id)] = true
 			metrics <- prometheus.MustNewConstMetric(
 				pdSmartCurrentValue, prometheus.GaugeValue, float64(attr.NormalizedCurrent),
 				ctrlId, strconv.Itoa(phySmartStats.Id), attr.Id, attr.Name)
@@ -389,6 +390,7 @@ func (e *Exporter) parserData(stdout, smart []byte, metrics chan<- prometheus.Me
 			if wtf[fmt.Sprintf("%d-%s", phySmartStats.Id, attr.Id)] {
 				continue
 			}
+			wtf[fmt.Sprintf("%d-%s", phySmartStats.Id, attr.Id)] = true
 			val, err := strconv.ParseFloat(attr.Value, 64)
 			if err == nil {
 				metrics <- prometheus.MustNewConstMetric(
