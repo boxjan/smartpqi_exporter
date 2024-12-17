@@ -291,14 +291,14 @@ func (e *Exporter) parserData(stdout, smart []byte, metrics chan<- prometheus.Me
 		metrics <- prometheus.MustNewConstMetric(ldInfo, prometheus.GaugeValue, 1,
 			ctrlId, vd.Get("logicalDriveID").String(),
 			raidLevel(int(vd.Get("raidLevel").Int())), vd.Get("size").String())
-		if vd.Get("status").String() == "2" {
+		if vd.Get("state").Int() == 2 {
 			metrics <- prometheus.MustNewConstMetric(ldHealthy, prometheus.GaugeValue, 1,
 				ctrlId, vd.Get("logicalDriveID").String())
 		} else {
 			metrics <- prometheus.MustNewConstMetric(ldHealthy, prometheus.GaugeValue, 0,
 				ctrlId, vd.Get("logicalDriveID").String())
 		}
-		metrics <- prometheus.MustNewConstMetric(ldStatus, prometheus.GaugeValue, vd.Get("status").Float(),
+		metrics <- prometheus.MustNewConstMetric(ldStatus, prometheus.GaugeValue, vd.Get("state").Float(),
 			ctrlId, vd.Get("logicalDriveID").String())
 	}
 
