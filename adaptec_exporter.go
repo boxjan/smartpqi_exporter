@@ -287,20 +287,20 @@ func (e *Exporter) parserData(stdout, smart []byte, metrics chan<- prometheus.Me
 		metrics <- prometheus.MustNewConstMetric(bocHealthy, prometheus.GaugeValue, 0, ctrlId)
 	}
 
-	for _, vd := range ctrlJson.Get("LogicalDrive").Array() {
-		metrics <- prometheus.MustNewConstMetric(ldInfo, prometheus.GaugeValue, 1,
-			ctrlId, vd.Get("logicalDriveID").String(),
-			raidLevel(int(vd.Get("raidLevel").Int())), vd.Get("size").String())
-		if vd.Get("status").String() == "2" {
-			metrics <- prometheus.MustNewConstMetric(ldHealthy, prometheus.GaugeValue, 1,
-				ctrlId, vd.Get("logicalDriveID").String())
-		} else {
-			metrics <- prometheus.MustNewConstMetric(ldHealthy, prometheus.GaugeValue, 0,
-				ctrlId, vd.Get("logicalDriveID").String())
-		}
-		metrics <- prometheus.MustNewConstMetric(ldStatus, prometheus.GaugeValue, vd.Get("status").Float(),
-			ctrlId, vd.Get("logicalDriveID").String())
-	}
+        for _, vd := range ctrlJson.Get("LogicalDrive").Array() {
+                metrics <- prometheus.MustNewConstMetric(ldInfo, prometheus.GaugeValue, 1,
+                        ctrlId, vd.Get("logicalDriveID").String(),
+                        raidLevel(int(vd.Get("raidLevel").Int())), vd.Get("size").String())
+                if vd.Get("state").Int() == 2 {
+                        metrics <- prometheus.MustNewConstMetric(ldHealthy, prometheus.GaugeValue, 1,
+                                ctrlId, vd.Get("logicalDriveID").String())
+                } else {
+                        metrics <- prometheus.MustNewConstMetric(ldHealthy, prometheus.GaugeValue, 0,
+                                ctrlId, vd.Get("logicalDriveID").String())
+                }
+                metrics <- prometheus.MustNewConstMetric(ldStatus, prometheus.GaugeValue, vd.Get("state").Float(),
+                        ctrlId, vd.Get("logicalDriveID").String())
+        }
 
 	var diskIdIsJDOB = make(map[int]bool)
 
